@@ -1,8 +1,10 @@
 ---
 title: "NCSSM miniterm R Tutorial"
 author: "Andrew Soborowski"
-date: '2023-01-17'
-output: html_document
+date: "2023-01-17"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -18,6 +20,8 @@ Basic R commands: math
 10 * 5
 10 ^ 5
 10 ** 5
+10 ^ 5 == 100000
+2 ^ 3
 10 * pi
 10 %% 3 #Modulus division
 10 %/% 3 #Integer division
@@ -86,6 +90,7 @@ y = FALSE
 !x        #Negation
 x & y     #AND
 x | y     #OR
+x | y     #OR
 xor(x,y)  #Exclusive OR
 ```
 
@@ -99,7 +104,7 @@ paste(x,y, sep=" ")
 
 x = "1"
 y = "2"
-x + y  #This breaks. Why?
+#x + y  #This breaks. Why?
 ```
 
 Vectors
@@ -179,6 +184,7 @@ age = c(30, 26, 21, 29, 25, 22, 28, 24, 23, 20)
 sex = rep(c("M","F"), 5)
 wt.in.kg = c(88, 76, 67, 66, 56, 74, 71, 60, 52, 72)
 df = data.frame(age = age, sex = sex, wt = wt.in.kg)
+df
 ```
 
 DataFrame properties
@@ -224,8 +230,8 @@ data = tibble(iris)
 
 File Reading
 ```{r}
-data = read_csv("file_path.csv")
-data = read_tsv("file_path.tsv")
+#data = read_csv("file_path.csv")
+#data = read_tsv("file_path.tsv")
 ```
 
 dplyr: data transformations for tibbles
@@ -255,6 +261,7 @@ data %>% filter(Sepal.Length > 4.9 | Species == "setosa")
 Mutate: make new columns
 ```{r}
 data %>% mutate(Length.Ratio = Petal.Length/Sepal.Length)
+data_ratio = data %>% mutate(Length.Ratio = Petal.Length/Sepal.Length)
 ```
 
 Arrange: sort by column values
@@ -306,6 +313,10 @@ data %>% ggplot() +
 #Or equivalenty
 data %>% ggplot(aes(x=Sepal.Width, y=Petal.Width)) + 
   geom_point()
+
+ggplot(data, aes(x=Sepal.Width, y=Petal.Width, color = Species)) + 
+  geom_point()
+
 ```
 
 Jittering
@@ -367,13 +378,15 @@ data %>% ggplot(aes(x=Sepal.Width, fill=Species)) +
   geom_density(alpha=.25)
 
 data %>% ggplot(aes(x=Species, y=Sepal.Width, colour = Species, fill=Species)) + 
-  geom_violin(alpha=.25)
+  geom_violin(alpha=.25) + 
+  geom_point() + geom_jitter(width = 0.1)
 ```
 
 Boxplots
 ```{r}
 data %>% ggplot(aes(x=Species, y=Sepal.Width, colour=Species)) + 
-  geom_boxplot()
+  geom_boxplot()+ 
+  geom_point() + geom_jitter(width = 0.1)
 ```
 
 Combination Plots
