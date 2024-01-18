@@ -1,0 +1,201 @@
+well,strain,condition,biorep,techrep
+1,blank,hvca,,
+2,blank,hvca,,
+3,blank,hvca,,
+4,blank,hvca,,
+5,blank,hvca,,
+6,blank,hvca,,
+7,blank,hvca,,
+8,blank,hvca,,
+9,blank,hvca,,
+10,blank,hvca,,
+11,blank,hvca,,
+12,trmB,hvca,1,1
+13,trmB,hvca,1,2
+14,trmB,hvca,1,3
+15,trmB,hvca,1,4
+16,trmB,hvca,1,5
+17,trmB,hvca,2,1
+18,trmB,hvca,2,2
+19,trmB,hvca,2,3
+20,blank,hvca,,
+21,blank,hvca,,
+22,WT,hvca,1,1
+23,WT,hvca,1,2
+24,WT,hvca,1,3
+25,WT,hvca,1,4
+26,WT,hvca,1,5
+27,WT,hvca,2,1
+28,WT,hvca,2,2
+29,WT,hvca,2,3
+30,blank,hvca,,
+31,blank,hvca,,
+32,trmB,hvca + 25mM glycerol,1,1
+33,trmB,hvca + 25mM glycerol,1,2
+34,trmB,hvca + 25mM glycerol,1,3
+35,trmB,hvca + 25mM glycerol,1,4
+36,trmB,hvca + 25mM glycerol,1,5
+37,trmB,hvca + 25mM glycerol,2,1
+38,trmB,hvca + 25mM glycerol,2,2
+39,trmB,hvca + 25mM glycerol,2,3
+40,blank,hvca,,
+41,blank,hvca,,
+42,WT,hvca + 25mM glycerol,1,1
+43,WT,hvca + 25mM glycerol,1,2
+44,WT,hvca + 25mM glycerol,1,3
+45,WT,hvca + 25mM glycerol,1,4
+46,WT,hvca + 25mM glycerol,1,5
+47,WT,hvca + 25mM glycerol,2,1
+48,WT,hvca + 25mM glycerol,2,2
+49,WT,hvca + 25mM glycerol,2,3
+50,blank,hvca,,
+51,blank,hvca,,
+52,trmB,hvca,2,4
+53,trmB,hvca,2,5
+54,trmB,hvca,3,1
+55,trmB,hvca,3,2
+56,trmB,hvca,3,3
+57,trmB,hvca,3,4
+58,trmB,hvca,3,5
+59,trmB,hvca,3,6
+60,blank,hvca,,
+61,blank,hvca,,
+62,WT,hvca,2,4
+63,WT,hvca,2,5
+64,WT,hvca,3,1
+65,WT,hvca,3,2
+66,WT,hvca,3,3
+67,WT,hvca,3,4
+68,WT,hvca,3,5
+69,WT,hvca,3,6
+70,blank,hvca,,
+71,blank,hvca,,
+72,trmB,hvca + 25mM glycerol,2,4
+73,trmB,hvca + 25mM glycerol,2,5
+74,trmB,hvca + 25mM glycerol,3,1
+75,trmB,hvca + 25mM glycerol,3,2
+76,trmB,hvca + 25mM glycerol,3,3
+77,trmB,hvca + 25mM glycerol,3,4
+78,trmB,hvca + 25mM glycerol,3,5
+79,trmB,hvca + 25mM glycerol,3,6
+80,blank,hvca,,
+81,blank,hvca,,
+82,WT,hvca + 25mM glycerol,2,4
+83,WT,hvca + 25mM glycerol,2,5
+84,WT,hvca + 25mM glycerol,3,1
+85,WT,hvca + 25mM glycerol,3,2
+86,WT,hvca + 25mM glycerol,3,3
+87,WT,hvca + 25mM glycerol,3,4
+88,WT,hvca + 25mM glycerol,3,5
+89,WT,hvca + 25mM glycerol,3,6
+90,blank,hvca,,
+91,blank,hvca,,
+92,blank,hvca,,
+93,blank,hvca,,
+94,blank,hvca,,
+95,blank,hvca,,
+96,blank,hvca,,
+97,blank,hvca,,
+98,blank,hvca,,
+99,blank,hvca,,
+100,blank,hvca,,
+101,blank,hvca,,
+102,blank,hvca,,
+103,blank,hvca,,
+104,blank,hvca,,
+105,blank,hvca,,
+106,blank,hvca,,
+107,blank,hvca,,
+108,blank,hvca,,
+109,blank,hvca,,
+110,blank,hvca,,
+111,blank,hvca,,
+112,trmB,hvca,4,1
+113,trmB,hvca,4,2
+114,trmB,hvca,4,3
+115,trmB,hvca,4,4
+116,empty,,,
+117,trmB,hvca,5,1
+118,trmB,hvca,5,2
+119,trmB,hvca,5,3
+120,blank,hvca,,
+121,blank,hvca,,
+122,WT,hvca,4,1
+123,WT,hvca,4,2
+124,WT,hvca,4,3
+125,WT,hvca,4,4
+126,empty,,,
+127,WT,hvca,5,1
+128,WT,hvca,5,2
+129,WT,hvca,5,3
+130,blank,hvca,,
+131,blank,hvca,,
+132,trmB,hvca + 25mM sucrose,4,1
+133,trmB,hvca + 25mM sucrose,4,2
+134,trmB,hvca + 25mM sucrose,4,3
+135,trmB,hvca + 25mM sucrose,4,4
+136,empty,,,
+137,trmB,hvca + 25mM sucrose,5,1
+138,trmB,hvca + 25mM sucrose,5,2
+139,trmB,hvca + 25mM sucrose,5,3
+140,blank,hvca,,
+141,blank,hvca + 25mM sucrose,,
+142,WT,hvca + 25mM sucrose,4,1
+143,WT,hvca + 25mM sucrose,4,2
+144,WT,hvca + 25mM sucrose,4,3
+145,WT,hvca + 25mM sucrose,4,4
+146,empty,,,
+147,WT,hvca + 25mM sucrose,5,1
+148,WT,hvca + 25mM sucrose,5,2
+149,WT,hvca + 25mM sucrose,5,3
+150,blank,hvca + 25mM sucrose,,
+151,blank,hvca + 25mM sucrose,,
+152,trmB,hvca,5,4
+153,empty,,,
+154,trmB,hvca,6,1
+155,trmB,hvca,6,2
+156,trmB,hvca,6,3
+157,trmB,hvca,6,4
+158,empty,,,
+159,empty,,,
+160,blank,hvca + 25mM sucrose,,
+161,blank,hvca + 25mM sucrose,,
+162,WT,hvca,5,4
+163,empty,,,
+164,WT,hvca,6,1
+165,WT,hvca,6,2
+166,WT,hvca,6,3
+167,WT,hvca,6,4
+168,empty,,,
+169,empty,,,
+170,blank,hvca + 25mM sucrose,,
+171,blank,hvca + 25mM sucrose,,
+172,trmB,hvca + 25mM sucrose,5,4
+173,empty,,,
+174,trmB,hvca + 25mM sucrose,6,1
+175,trmB,hvca + 25mM sucrose,6,2
+176,trmB,hvca + 25mM sucrose,6,3
+177,trmB,hvca + 25mM sucrose,6,4
+178,empty,,,
+179,empty,,,
+180,blank,hvca + 25mM sucrose,,
+181,blank,hvca + 25mM sucrose,,
+182,WT,hvca + 25mM sucrose,5,4
+183,empty,,,
+184,WT,hvca + 25mM sucrose,6,1
+185,WT,hvca + 25mM sucrose,6,2
+186,WT,hvca + 25mM sucrose,6,3
+187,WT,hvca + 25mM sucrose,6,4
+188,empty,,,
+189,empty,,,
+190,blank,hvca + 25mM sucrose,,
+191,blank,hvca + 25mM sucrose,,
+192,blank,hvca + 25mM sucrose,,
+193,blank,hvca + 25mM sucrose,,
+194,blank,hvca + 25mM sucrose,,
+195,blank,hvca + 25mM sucrose,,
+196,blank,hvca + 25mM sucrose,,
+197,blank,hvca + 25mM sucrose,,
+198,blank,hvca + 25mM sucrose,,
+199,blank,hvca + 25mM sucrose,,
+200,blank,hvca + 25mM sucrose,,
